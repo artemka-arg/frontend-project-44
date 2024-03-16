@@ -4,3 +4,6 @@
 
 #### Preview of the brain-even game:
 https://asciinema.org/a/g8fz2qk68p293HLbajDpH7ivJ
+
+#### Preview of the brain-calc game:
+https://asciinema.org/a/hRNRIJJPIcxQx3VZP5ocdwcpd
