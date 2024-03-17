@@ -4,14 +4,14 @@ const randomProgression = () => {
   const start = randomNumber(1, 20);
   const step = randomNumber(1, 10);
   const numbersCount = randomNumber(5, 10);
-  const index = randomNumber(0, numbersCount);
+  const index = randomNumber(0, numbersCount - 1);
   const numbers = [];
 
   for (let i = start; numbers.length < numbersCount; i += step) {
-    numbers.push(i);
+    numbers.push(`${i}`);
   }
 
-  const expectedAnswer = numbers[index].toString();
+  const expectedAnswer = numbers[index];
   numbers[index] = '..';
   const progression = numbers.join(' ');
 
