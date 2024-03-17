@@ -5,6 +5,7 @@ const isEven = (num) => num % 2 === 0;
 const randomQuestion = () => {
   const number = randomNumber(1, 50);
   const expectedAnswer = isEven(number) ? 'yes' : 'no';
+
   return [number, expectedAnswer];
 };
 

@@ -10,3 +10,6 @@ https://asciinema.org/a/hRNRIJJPIcxQx3VZP5ocdwcpd
 
 #### Preview of the brain-gcd game:
 https://asciinema.org/a/Kg5cJNE1UrmTQJZB3QM5imxio
+
+#### Preview of the brain-prime game:
+https://asciinema.org/a/zJmnsu4cEwtn6njN9FSVtKy1k
