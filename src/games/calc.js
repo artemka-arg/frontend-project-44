@@ -1,11 +1,10 @@
-import round from '../index.js';
+import round, { randomNumber } from '../index.js';
 
 // FUNCTION FOR COMPOSING AN EXPRESSION
-const randomNum = () => Math.ceil(Math.random() * 20);
-
 const randomOperator = () => {
   const operators = ['+', '-', '*'];
-  const randomIndex = Math.floor(Math.random() * operators.length);
+  const lastIndex = operators.length - 1;
+  const randomIndex = randomNumber(0, lastIndex);
 
   return operators[randomIndex];
 };
@@ -25,8 +24,8 @@ const expressionResult = (number1, number2, operator) => {
 };
 
 const randomExpression = () => {
-  const number1 = randomNum();
-  const number2 = randomNum();
+  const number1 = randomNumber(1, 20);
+  const number2 = randomNumber(1, 20);
   const operator = randomOperator();
 
   const expression = `${number1} ${operator} ${number2}`;

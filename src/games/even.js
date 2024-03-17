@@ -1,10 +1,9 @@
-import round from '../index.js';
+import round, { randomNumber } from '../index.js';
 
 const isEven = (num) => num % 2 === 0;
-const randomNum = () => Math.ceil(Math.random() * 50);
 
 const randomQuestion = () => {
-  const number = randomNum();
+  const number = randomNumber(1, 50);
   const expectedAnswer = isEven(number) ? 'yes' : 'no';
   return [number, expectedAnswer];
 };
