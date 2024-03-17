@@ -13,3 +13,6 @@ https://asciinema.org/a/Kg5cJNE1UrmTQJZB3QM5imxio
 
 #### Preview of the brain-prime game:
 https://asciinema.org/a/zJmnsu4cEwtn6njN9FSVtKy1k
+
+#### Preview of the brain-progression game:
+https://asciinema.org/a/cpFFihEx3Qslu4uoMAzt29Vj3
