@@ -7,3 +7,6 @@ https://asciinema.org/a/g8fz2qk68p293HLbajDpH7ivJ
 
 #### Preview of the brain-calc game:
 https://asciinema.org/a/hRNRIJJPIcxQx3VZP5ocdwcpd
+
+#### Preview of the brain-gcd game:
+https://asciinema.org/a/bhLb8Hxvq1rwjzCePdy5Hgqb9
